@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Alarm Clock</title>
+    <link rel="stylesheet" href="alarmClock.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Comforter&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;1,8..60,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class ="wrapper">
+        <h2>Alarm Clock</h2>
+        <img src="alarmClockPic.jpg">
+        <h1>00:00:00 PM</h1>
+        <div class="content">
+            <div class="column">
+                <select> 
+                    <option value="Hour" selected hidden>Hour</option>
+                    <!-- <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
+                </select>
+            </div>
+            <div class="column">
+                <select> 
+                    <option value="Minute" selected hidden>Minute</option>
+                    <!-- <option value="01">01</option>  
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
+                </select>
+            </div>
+            <div class="column">
+                <select> 
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+                    <!-- <option value="AM">AM</option>
+                    <option value="PM">PM</option> -->
+                </select>
+            </div>
+        </div>
+        <button>Set Alarm</button>
+        
+    </div>
+
+    <script src="alarmClock.js"></script>
+</body>
+</html>
